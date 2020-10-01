@@ -1,0 +1,189 @@
+﻿/****** layout **********/
+html{
+	background-color:#FFF;
+    /*background: url(//d2bif7wyy1aoee.cloudfront.net/partnerportal/shreveport/v2/Images/headerbackground.png) 0px 0px repeat-x #008080;*/
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    margin: 0px;
+    background-color: #87aaa6;
+    background-image: url('//d2bif7wyy1aoee.cloudfront.net/partnerportal/duluth/v1/images/container.jpg');
+    text-align: left;
+}
+/*div{
+	border:1px solid red;
+}*/
+
+/*---------Main Body-----------*/
+
+#wrapper{
+	text-align:left;
+}
+#top {
+    text-align: left;
+    height: 100px;
+    background-color: #efefef;
+    margin-top: 0px;
+}
+#inner_top{
+	height:inherit;
+}
+#banner{
+    padding-right:5px;
+    height:40px;
+}
+#footer {
+    background-image: url('//d2bif7wyy1aoee.cloudfront.net/partnerportal/duluth/v1/images/footer.jpg');
+    text-align: left;
+    clear: both;
+    margin-top: 0px;
+}
+#inner_footer{
+}
+#center_wrapper{
+    overflow:hidden;
+    clear:both;
+    margin-top:0px;
+    padding-right:10px;
+    margin-top:5px;
+}
+#center_wrapper #main, #center_wrapper #sidebar_left, #center_wrapper #sidebar_right{
+    float:left;
+    display:inline-block;
+}
+#center_wrapper #sidebar_left
+{
+    width:150px;
+    min-height:150px;
+}
+#center_wrapper #sidebar_right{
+    width:10px;
+}
+#center_wrapper #main
+{
+    float:left;
+    width:595px;
+    min-height:400px;
+    text-align:left;
+    background:#fff;
+    padding:5px;
+}
+.RadEditor{
+    width:auto !important;
+}
+.RadEditorMinimal{
+    width:auto !important;
+}
+
+/*---------------------Header------------------------*/
+#header_wrapper {
+    min-height: 200px;
+    position: relative;
+    /*background-image: url(//d2bif7wyy1aoee.cloudfront.net/partnerportal/shreveport/v1/Images//header.jpeg);*/
+}
+#header_wrapper #header_upperRow
+{
+    text-align:left;
+    vertical-align:top;
+    position: absolute;
+    top:2px;
+    padding-left:10px;
+    z-index:1;
+}
+
+#header_wrapper #header_lowerRow {
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    top: 72px;
+    padding-left: 212px;
+    z-index: 1;
+    color: #0c0e2b
+}
+
+.topNav
+{
+    border-right:none;
+    background-color: transparent;
+    color:#000;
+    padding: 0px;
+    height: 40px;
+}
+.topMenuLink
+{
+    width:0px;
+}
+.standardHeader
+{
+    
+    background-color: transparent;
+    border-bottom: none;
+	background-repeat: no-repeat;
+    width:765px;
+    height:210px;
+}
+/*---------------------Footer------------------------*/
+div.flash { 
+    display: block;
+    height: 189px;
+    margin: 0px auto;
+    width: 765px;
+    z-index:0;
+}
+.shadow
+{
+    margin: 0px auto;
+    padding-right: 0px;
+    width: 765px;
+}
+.topBackground
+{
+    color:#000;
+    background-color: transparent;
+}
+.topNav a, .topNav a:hover, .topNav a:link
+{
+    font: small-caps 14px "Arial", sans-serif;
+    margin: 9px 14px 10px 6px;
+    color:#000;
+    text-decoration:none;
+}
+.leftNavTitle, .leftNavTitleAlt, .leftNav 
+{
+    background:#000;
+    color:#fff;
+    border:none !important;
+}
+#sidebar_left table table
+{
+    border:none !important;
+}
+.leftNav a, .leftNav a:hover, .leftNav a:link
+{
+    color:#fff;
+    text-decoration:none;
+}
+
+#footer_wrapper {
+    padding-top: 50px;
+    display: block;
+    bottom: 0;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8a949b;
+}
+
+.footer a
+{
+    font: 10px Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+.standarFooter, .standardFooter{
+    border: none;
+}
